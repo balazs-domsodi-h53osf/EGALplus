@@ -18,6 +18,7 @@
 		</script>
 	</head>
 	<body>
+		<button onclick="ShowAdvanced()">Show/hide additional information</button>
 		<div id="advanced">
 <?php
 ini_set('max_execution_time', '10800');
@@ -282,7 +283,6 @@ for ($p=0; $p<=$PopSize-1; $p++) {
 ?>
 </div>
 <div>
-<button onclick="ShowAdvanced()">Show/hide additional information</button>
 <?php
 echo "<h3>Results: </h3>";
 for ($p=0; $p<=$PopSize-1; $p++) {
